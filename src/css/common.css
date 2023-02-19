@@ -16,3 +16,41 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.color-switcher-wrapper {
+  display: flex;
+  height: 80vh;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-button {
+  text-transform: uppercase;
+  padding: 10px 12px;
+}
+.stop-button {
+  text-transform: uppercase;
+  padding: 10px 12px;
+}
+
+.timer {
+  display: flex;
+  gap: 12px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 36px;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bolder;
+}
